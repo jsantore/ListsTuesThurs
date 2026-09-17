@@ -6,3 +6,6 @@ courses[1] = "cybf210"
 next_class = input("What class will you take next")
 courses.append(next_class)
 print(courses)
+courses.remove ("Math161")
+print(courses)
+courses[6]="CYBF490"
